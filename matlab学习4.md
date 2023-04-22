@@ -62,8 +62,10 @@ end
 
 ## 雅可比矩阵深入
 对T关于关节坐标q求导，有：
+![](https://github.com/AllaNewmoon/-/blob/main/QQ%E5%9B%BE%E7%89%8720230418215806.png?raw=true)
 
 其中右边的1*3向量表示平移位移，对左上角的3 * 3矩阵，可以推导出末端执行器角速度和关节速度之间的关系：
+![](https://github.com/AllaNewmoon/-/blob/main/QQ%E5%9B%BE%E7%89%8720230418223359.png?raw=true)
 
 （在matlab中有w = vex(dRdq1 * R')
 
